@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+.stats {
+	background-color: #667ad8;
+	width: 30%;
+	margin: 0 auto;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: -40px;
+}
+
+.stats p {
+	margin: 2px;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+.modal-content {
+    background-color: #aaf;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.modal p:nth-of-type(2) {
+    font-size: 12px;
+}
